@@ -32,4 +32,4 @@ Outputs:
   PipelineID:
     Value: !Sub ${PipelineID}
     Export:
-      Name: PipelineIDPROD
+      Name: PipelineIDPROD1
