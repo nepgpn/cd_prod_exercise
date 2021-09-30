@@ -20,7 +20,7 @@ jobs:
       - run: |
           aws cloudformation deploy \
             --template-file cloudfront.yml \
-            --stack-name cloudfront \
+            --stack-name production-destro \
             --parameter-overrides PipelineID="${CIRCLE_WORKFLOW_ID:0:7}"
 
 workflows:
